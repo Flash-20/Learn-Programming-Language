@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="programming_language.css">
+    <title>Programming in C</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col d-flex justify-content-center align-items-center">
+                <img loading="lazy" width="500" height="500" src="c-logo.png" alt="C logo">
+            </div>
+            <div class="col shadow p-3 mb-5 bg-body rounded">
+                <h1 class="fw-bolder">Programming in C</h1>
+                <h3 class="fw-bold">Overview</h3>
+                <p class="fs-5">
+                    Developed more than 50 years ago, C is the oldest programming language. Even more impressive is that it still runs the modern world. Computer systems and hardware are programmed using C, and so are modern devices such as cell phones. It’s also one of the top programming languages for Internet of Things devices such as smartwatches.
+                </p>
+                <h3 class="fw-bold">Pros</h3>
+                <ul>
+                    <li class="fs-5">Great for learning the fundamentals of programming</li>
+                    <li class="fs-5">Gives more control over memory management</li>
+                    <li class="fs-5">Testing, debugging, and maintenance are easy</li>
+                </ul>
+                <h3 class="fw-bold">Cons</h3>
+                <ul>
+                    <li class="fs-5">A very strict coding language and thus not easy to learn</li>
+                    <li class="fs-5">Not applicable in websites and smartphone apps development</li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <h1 class="fw-bolder mt-5 mb-5 d-flex justify-content-center">Videos</h1>
+            <div class="col-md-9 mx-auto shadow-lg p-3 mb-5 bg-body rounded">
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/tVzDWlU1GB0" title="YouTube video" style="max-width: 100%;height: 100%;" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div>
+                <p class="mt-5 fw-bold fs-2">More Links:</p>
+                <ul>
+                    <li class="fs-5"><p>Install C Compiler: <a href="https://youtu.be/TPOIhugyqgs" target="_blank">https://youtu.be/TPOIhugyqgs</a></p></li>
+                    <li class="fs-5"><p>Basic Structure of C Programming: <a class="fs-5" href="https://youtu.be/-QxFAxx9u-s" target="_blank">https://youtu.be/-QxFAxx9u-s</a></p></li>
+                    <li class="fs-5"><p>Comment in C Programs: <a class="fs-5" href="https://youtu.be/_d6isaCwL4g" target="_blank">https://youtu.be/_d6isaCwL4g</a></p></li>
+                </ul>
+            </div>
+            <div class="mt-5 text-center shadow-lg p-3 mb-5 bg-body rounded ">
+                <p class=" fw-bold fs-2 d-flex justify-content-center" >You feel good about this course? Test your self!</p>
+                <button class="btn btn-outline-primary btn-lg mt-1">Take a Test</button>
+            </div>
+        </div>
+        <div>
+            <p class="mt-5 fw-bold fs-2">Post your doubts:</p>
+            <form class="form-group">
+                <textarea class="form-control" id="doubts" rows="3"></textarea>
+                <div class="text-center">
+                    <button class="btn btn-outline-primary btn-lg mt-2">Submit</button>
+                </div>
+        </div>
+        <div class="mb-5 mt-5 shadow-lg p-3 mb-5 bg-body rounded">
+            <p class=" fw-bold fs-2">Doubts:</p>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="fs-5">
+                        <span class="fw-bold">Username <br></span>
+                        <span class="fw-bold">Q: What are the basic Datatypes supported in C Programming Language?</span>
+                        <br>
+                        <span class=""><b>A: </b>The Datatypes in C Language are broadly classified into 4 categories. They are as follows:
+
+                            Basic Datatypes,
+                            Derived Datatypes,
+                            Enumerated Datatypes and
+                            Void Datatypes</span>
+                    </p>
+                    <p class="fs-5">
+                        <span class="fw-bold">Username <br></span>
+                        <span class="fw-bold">Q: What do you mean by Dangling Pointer Variable in C Programming?</span>
+                        <br>
+                        <span class=""><b>A: </b>A Pointer in C Programming is used to point the memory location of an existing variable. In case if that particular variable is deleted and the Pointer is still pointing to the same memory location, then that particular pointer variable is called as a Dangling Pointer Variable.</span>
+                    </p>
+                    <p class="fs-5">
+                        <span class="fw-bold">Username <br></span>
+                        <span class="fw-bold">Q: Differentiate between calloc() and malloc()</span>
+                        <br>
+                        <span class=""><b>A: </b> calloc() and malloc() are memory dynamic memory allocating functions. The only difference between them is that calloc() will load all the assigned memory locations with value 0 but malloc() will not.</span>
+                    </p>
+                    <p class="fs-5">
+                        <span class="fw-bold">Username <br></span>
+                        <span class="fw-bold">Q: Differentiate between Actual Parameters and Formal Parameters.</span>
+                        <br>
+                        <span class=""><b>A: </b>The Parameters which are sent from main function to the subdivided function are called as Actual Parameters and the parameters which are declared a the Subdivided function end are called as Formal Parameters.</span>
+                    </p>
+                </div>    
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
