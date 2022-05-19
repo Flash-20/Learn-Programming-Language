@@ -22,3 +22,35 @@ Online IDE is been integrated to practice coding.
     src="Preview/home_page.png"
   >
 </p>
+<br>
+<h1>Domains</h1>
+<br>
+<p align="center">
+  <img 
+    src="Preview/domains.png"
+  >
+</p>
+<br>
+<h1>Features</h1>
+<br>
+<p align="center">
+  <img 
+    src="Preview/features.png"
+  >
+</p>
+<br>
+<h1>Languages</h1>
+<br>
+<p align="center">
+  <img 
+    src="Preview/language.png"
+  >
+</p>
+<br>
+<h1>Online IDE</h1>
+<br>
+<p align="center">
+  <img 
+    src="Preview/ide.png"
+  >
+</p>
